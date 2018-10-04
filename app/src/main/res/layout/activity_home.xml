@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/btn_cap"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Capture Image"/>
+
+        <Button
+            android:id="@+id/btn_gray"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Grayscale" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/btn_canny"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Canny"
+            />
+
+        <Button
+            android:id="@+id/btn_gaussian"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Gaussian" />
+    </LinearLayout>
+
+
+</LinearLayout>
